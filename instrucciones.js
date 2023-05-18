@@ -79,7 +79,7 @@ const cargarPeliculas = async() => {
         /* copiar */
         const datos = await respuesta.json();
         console.log(datos);
-        console.log(datos.tittle);
+        console.log(datos.title);
         /* listo */
     } catch(error){
         console.log(error);
@@ -101,7 +101,7 @@ const cargarPeliculas = async() => {
             /* listo */
         const datos = await respuesta.json();
         console.log(datos);
-        console.log(datos.tittle);
+        console.log(datos.title);
         }/* <-- agregar llave y copiar abajo*/
         else if(respuesta.status === 404){
             console.log('la pelicula que buscas no existe');
@@ -130,7 +130,7 @@ const cargarPeliculas = async() => {
 
         const datos = await respuesta.json();
         console.log(datos); 
-        console.log(datos.tittle); /* quitamos esta linea */
+        console.log(datos.title); /* quitamos esta linea */
         }
         else if(respuesta.status === 404){
             console.log('la pelicula que buscas no existe');
