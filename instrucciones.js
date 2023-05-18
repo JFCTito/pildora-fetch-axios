@@ -224,6 +224,7 @@ cargarPeliculas();
     
     cargarPeliculas();
 
+    
 // PASOS PARA USAR AXIOS
 
 //ingresamos en la web de axios, buscamos el codigo para acceder a la libreria de CDN
